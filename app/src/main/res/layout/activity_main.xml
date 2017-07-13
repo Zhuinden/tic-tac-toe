@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+       	android:id="@+id/game_view_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_text"
+         />
+
+    <hu.bme.game.zvga.tictactoe.view.GameView
+        android:id="@+id/game_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+         />
+
+</LinearLayout>

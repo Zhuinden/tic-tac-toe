@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/startActivityBackItem"
+        android:title="@string/back_text"/>
+
+</menu>
